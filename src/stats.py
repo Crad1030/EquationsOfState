@@ -1,4 +1,4 @@
-from eos_math import *
+from .eos_math import *
 
 def chi_squared(error: np.ndarray) -> float:
     """Calculates the chi-squared value for the given error array.
