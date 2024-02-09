@@ -215,7 +215,7 @@ def input_data(filename: str, eos: str, T: float, R: float, C: np.ndarray, lines
     """
 
     print("\n")
-    print("\033[1;92mFILE INFORMATION:")
+    print("FILE INFORMATION:")
     print(f"Using Data File       = {filename[:-4].upper()}")
     print(f"Equation of State     = {eos.upper()}")
     print(f"Lines of Data         = {lines:d}")
