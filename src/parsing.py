@@ -215,13 +215,13 @@ def input_data(filename: str, eos: str, T: float, R: float, C: np.ndarray, lines
     """
 
     print("\n")
-    print("\033[1;92mFILE INFORMATION\033[0m:")
-    print(f"Using Data File       = \033[93m{filename[:-4].upper()}\033[0m")
-    print(f"Equation of State     = \033[93m{eos.upper()}\033[0m")
-    print(f"Lines of Data         = \033[93m{lines:d}\033[0m")
-    print(f"Number of Parameters  = \033[93m{len(C):d}\033[0m")
-    print(f"Initial Parameters    = \033[93m{C}\033[0m")
-    print(f"Temp and Gas Constant = \033[93m{T:<10.6E} | {R:.6E}\033[0m")
+    print("\033[1;92mFILE INFORMATION:")
+    print(f"Using Data File       = {filename[:-4].upper()}")
+    print(f"Equation of State     = {eos.upper()}")
+    print(f"Lines of Data         = {lines:d}")
+    print(f"Number of Parameters  = {len(C):d}")
+    print(f"Initial Parameters    = {C}")
+    print(f"Temp and Gas Constant = {T:<10.6E} | {R:.6E}")
     print("\n")
 
 
